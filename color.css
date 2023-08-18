@@ -1,0 +1,90 @@
+.color1{
+    background-color: blueviolet;
+}
+.color2{
+    background-color: rgb(136, 239, 205);
+}
+.color3{
+    background-color: rgb(249, 172, 146);
+}
+.color4{
+    background-color: rgb(205, 244, 205);
+}
+.color5{
+    background-color: rgb(255, 255, 216);
+}
+.color6{
+    background-color: rgb(253, 224, 187);
+}
+.color7{
+background-color: rgb(154, 205, 255);
+}
+.color8{
+background-color: rgb(252, 245, 183);
+}
+.color9{
+   background-color: rgba(241, 157, 157, 0.645);
+}
+.color10{
+    background-color: rgb(191, 99, 157);
+}
+.image{
+     float: right;
+}
+#photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1,p{
+   margin: 0;
+   padding: 0;
+}
+table tr td{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 1%;
+}
+#p1{
+    text-align: center;
+    justify-content: center;
+}
+@media screen and (max-width:1430px) {
+    table tr td{
+            font-size: 13px ;
+        }    }
+@media screen and (max-width:1300px) {
+    table tr td{
+            font-size: 11px ;
+          
+    }
+}    @media screen and (max-width:1155px) {
+        table tr td{
+                font-size: 9px ;
+        }
+    }    @media screen and (max-width:1008px) {
+            table tr td{
+                    font-size: 7px ;
+            }
+
+    }
+    @media screen and (max-width:884px) {
+        table tr td{
+                font-size: 6px ;
+        }
+    }    @media screen and (max-width:844px) {
+            table tr td{
+                    font-size: 4px ;
+            }
+            @media screen and (max-width:777px) {
+                table tr td{
+                        font-size: 2px ;
+                    }        }
+
+ }

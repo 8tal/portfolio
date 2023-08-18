@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.salut{
+    border-radius: 20px;
+    border: 2px;
+    padding: 70px;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+   background-color: rgb(165, 195, 249);
+
+}
+.point{
+    background-color: rgb(214, 235, 191);
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 40px;
+}
+td{
+    margin:0;
+    padding-bottom: 5%;
+    
+}
+    h1{
+        margin-top: 12%;
+    }
+    
